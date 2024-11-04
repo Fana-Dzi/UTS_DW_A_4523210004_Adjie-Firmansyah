@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZICAFE</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">DI<span>ZICAFE</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#products">Produk</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <div class="mask-container">
+      <main class="content">
+        <h1>Mari istirahat sejenak di <span>ZICAFE</span></h1>
+      </main>
+    </div>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/tentang-kami.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>SELAMAT DATANG DI ZICAFE!</h3>
+        <p>Kami menyediakan makanan, minuman, serta dessert yang memuaskan</p>
+
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="menu" class="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Ini adalah beberapa makanan, minuman, dan dessert yang kami sediakan.
+    </p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="https://res.cloudinary.com/jnto/image/upload/w_1440,h_900,c_fill,f_auto,fl_lossy,q_60/v1/media/filer_public/47/7f/477f36c3-a329-437d-a571-d75cdaa73a6f/1_5_zv5jq9" alt="Sushi" class="menu-card-img">
+        <h3 class="menu-card-title">- Sushi -</h3>
+        <p class="menu-card-price">IDR 40K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://asset.kompas.com/crops/ZApJuQRRj8hCN6qhFeFp1YcDxeM=/0x0:1000x667/1200x800/data/photo/2022/12/27/63aa85776cf9e.jpg" alt="Steak" class="menu-card-img">
+        <h3 class="menu-card-title">- Tenderloin steak -</h3>
+        <p class="menu-card-price">IDR 300K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://cdn1-production-images-kly.akamaized.net/5Rgd9MT6ayaE2xEUHS3XWIzpc6w=/0x281:4653x2903/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3049433/original/093267200_1581580862-shutterstock_294636281.jpg" alt="Pizza" class="menu-card-img">
+        <h3 class="menu-card-title">- Pizza mozarella -</h3>
+        <p class="menu-card-price">IDR 140K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://akcdn.detik.net.id/community/media/visual/2020/03/10/3ed1bc4b-3c08-4ecc-abc2-9b8f7f018e7c.jpeg?q=90&w=480" alt="Blue posion" class="menu-card-img">
+        <h3 class="menu-card-title">- Blue posion soda -</h3>
+        <p class="menu-card-price">IDR 40K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://dreamworldinternational.id/wp-content/uploads/2022/03/photo-1630369160812-26c7604cbd8c.jpg" alt="Red blood" class="menu-card-img">
+        <h3 class="menu-card-title">- Mocktail red blood -</h3>
+        <p class="menu-card-price">IDR 50K</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://assets.clevelandclinic.org/transform/47cdb246-3c9d-4efb-8b3b-1e6b85567a16/Fruit-Juice-155376375-770x533-1_jpg" alt="Lemon lime" class="menu-card-img">
+        <h3 class="menu-card-title">- Aneka Juice -</h3>
+        <p class="menu-card-price">IDR 25K</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- Products Section start -->
+  <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Silahkan memilih.</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS90RNa5_kjZxb5lYMotiuD-okyxJt62LkFBg&s" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>The godfather steak</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 700K <span>IDR 990K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="https://cdn.yummy.co.id/content-images/images/20230626/882dcc28cb8df256f11684b53cc0cd48.jpg?x-oss-process=image/format,webp" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Tropical twist</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 97K <span>IDR 155K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="https://d4t7t8y8xqo0t.cloudfront.net/app/eazymedia/group%2F6389%2Fmenu420221227062158.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Dessert</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 49K <span>IDR 77K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Hubungi kami jika ada keluhan
+    </p>
+    <p>Call : 0845637882.
+    </p>
+
+    <div class="row">
+      <iframe
+        src="https://maps.app.goo.gl/pwaWj5iajko6ifhy6"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn">kirim pesan</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="product-content">
+          <h3>Product 1</h3>
+
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    feather.replace()
+  </script>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
